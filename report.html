@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Incident | SIM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><i class="fa-solid fa-shield-halved"></i><span>SIM</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="report.html" class="active">Report</a></li>
+                <li><a href="emergency.html">Emergency</a></li>
+                <li><a href="tips.html">Safety Tips</a></li>
+                <li><a href="statistics.html">Statistics</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <h1>Report a Security Incident</h1>
+            <p>Please share the details below so the campus security team can respond quickly and appropriately. Your
+                report will be handled with care and confidentiality.</p>
+        </section>
+
+        <section class="grid grid-2">
+            <div class="card">
+                <h2>Incident Report Form</h2>
+                <form>
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter your email">
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="Enter phone number">
+                    <label>Occupation</label>
+                    <select>
+                        <option>Student</option>
+                        <option>Staff</option>
+                        <option>Landlord</option>
+                    </select>
+                    <label>Faculty</label>
+                    <input type="text" placeholder="Enter faculty">
+                    <label>Department</label>
+                    <input type="text" placeholder="Enter department">
+                    <label>Incident Type</label>
+                    <select>
+                        <option>Theft</option>
+                        <option>Robbery</option>
+                        <option>Assault</option>
+                        <option>Fire Outbreak</option>
+                        <option>Suspicious Activity</option>
+                        <option>Others</option>
+                    </select>
+                    <label>Incident Location</label>
+                    <input type="text" placeholder="Mention the location">
+                    <label>Date of Incident</label>
+                    <input type="date">
+                    <label>Time of Incident</label>
+                    <input type="time">
+                    <label>Describe the Incident</label>
+                    <textarea rows="5" placeholder="Explain what happened"></textarea>
+                    <label>Upload Evidence</label>
+                    <input type="file">
+                    <button type="submit">Submit Report</button>
+                </form>
+                <p class="note">Your information will remain confidential and will only be reviewed by authorized
+                    personnel.</p>
+            </div>
+
+            <div class="card">
+                <h2>What to Include</h2>
+                <ul class="list">
+                    <li>When the incident happened</li>
+                    <li>Where it happened</li>
+                    <li>Who was involved</li>
+                    <li>Any evidence or photos</li>
+                </ul>
+                <h2>Important Note</h2>
+                <p>If the situation is dangerous or life-threatening, call emergency services immediately instead of
+                    waiting.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h2>Security Incident Mapping System (SIM)</h2>
+            <p>Promoting a safer campus through technology.</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="report.html">Report Incident</a>
+                <a href="emergency.html">Emergency Contacts</a>
+                <a href="tips.html">Safety Tips</a>
+                <a href="statistics.html">Statistics</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p>Email: <a href="mailto:simsupport@campus.edu">simsupport@campus.edu</a></p>
+            <p>Phone: +234 800 123 4567</p>
+            <p>© <span id="year"></span> SIM. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
